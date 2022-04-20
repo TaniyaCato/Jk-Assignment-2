@@ -1,6 +1,6 @@
 ---
 layout: default.html
-title: About me
+title: About Me
 Description: background information about me 
 ---
 
