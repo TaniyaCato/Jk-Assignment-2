@@ -2,15 +2,18 @@
 
 ---  
 
+$heading-header-color: #000 !default;
+
 @import "{{ site.theme }}";
 
 h1{
     color: #000000;
 }
 
-.page-header.about{
-    padding: 0;
-}
+//.page-header.about{
+    //color: aqua;
+   // padding: 0;
+//}
 
 li.button{
     display: flex;
