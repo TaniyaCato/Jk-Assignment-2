@@ -8,4 +8,4 @@ description: background information about me
 
 Adding Comments: {%comment%} This is not showing on my page {%endcomment%}
 
-{%include credits.html%}
+{% include credits.html %}
