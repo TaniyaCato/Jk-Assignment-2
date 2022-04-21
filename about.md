@@ -5,3 +5,7 @@ description: background information about me
 ---
 
 # About Me 
+
+Adding Comments: {% comments %} This is not showing on my page {% endcomments %}
+
+{ % Include Credits.html %}
