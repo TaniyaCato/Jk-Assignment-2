@@ -6,6 +6,6 @@ description: background information about me
 
 # About Me 
 
-Adding Comments: {%comments%} This is not showing on my page {%endcomments%}
+Adding Comments: {%comment%} This is not showing on my page {%endcomment%}
 
-{% include credits.html %}
+{%include credits.html%}
