@@ -1,5 +1,7 @@
 ---
 layout: default
 title: Contact Me
-description: my contact information
+description: My Contact Information
 ---
+
+<h1>This is My Contact Page</h2>

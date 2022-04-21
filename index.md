@@ -1,6 +1,10 @@
-## Welcome to GitHub Pages
 
-Displaying site title {{Site:Sketched by Taniya}}
+---
+layout: default
+title: Contact Me
+description: My Contact Information
+---
+
 
 You can use the [editor on GitHub](https://github.com/TaniyaCato/Jk-Assignment-2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
