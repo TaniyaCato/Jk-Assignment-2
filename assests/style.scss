@@ -6,16 +6,16 @@ $heading-header-color: #000 !default;
 
 @import "{{ site.theme }}";
 
-h1{
-    color: #000000;
-}
-
-//.page-header.about{
-    //color: aqua;
-   // padding: 0;
+//h1{
+    //color: #000000;
 //}
 
-li.button{
+.about{
+    color: aqua;
+    padding: 0;
+}
+
+nav ul{
     display: flex;
     list-style: none;
     justify-content: center;
