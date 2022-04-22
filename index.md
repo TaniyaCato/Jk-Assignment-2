@@ -1,7 +1,6 @@
-
 ---
 layout: default
-title: Welcome to my Site!!
+title: Welcome to my Site
 description: This is my home page
 ---
 
