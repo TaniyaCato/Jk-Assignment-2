@@ -1,8 +1,8 @@
 
 ---
 layout: default
-title: Contact Me
-description: My Contact Information
+title: Welcome to my Site!!
+description: This is my home page
 ---
 
 
