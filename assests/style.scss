@@ -14,7 +14,7 @@ $heading-header-color: #000 !default;
     padding: 0;
 }
 
-.button{
+nav ul{
     display: flex;
     list-style: none;
     justify-content: center;
@@ -23,6 +23,17 @@ $heading-header-color: #000 !default;
 
 a{
     color: black;
+}
+
+// News css
+.card{
+    display:flex;
+    margin-bottom:1rem;
+    border-bottom: solid 1px #ccc;
+}
+
+.pic{
+    margin-right:1.5rem;
 }
 
 
