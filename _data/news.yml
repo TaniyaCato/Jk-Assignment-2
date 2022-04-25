@@ -2,7 +2,7 @@ story:
 - image: https://picsum.photos/200/200
 image-alt: PLaceholder image 1
 title: First Story Title
-subtitle: First Story subtitler
+subtitle: First Story subtitle
 Story-content: First story content
 tag-link: "http://google.com" 
 tag: lets go to google
@@ -10,7 +10,7 @@ tag: lets go to google
 - image: https://picsum.photos/200/200
 image-alt: PLaceholder image 2
 title: Second Story Title
-subtitle: Second Story subtitler
+subtitle: Second Story subtitle
 Story-content: First story content
 tag-link: "http://google.com" 
 tag: lets go to google again
@@ -18,7 +18,7 @@ tag: lets go to google again
 - image: https://picsum.photos/200/200
 image-alt: PLaceholder image 3
 title: Third Story Title
-subtitle: Third Story subtitler
+subtitle: Third Story subtitle
 Story-content: First story content
 tag-link: "http://google.com" 
 tag: lets go to google
