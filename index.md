@@ -3,40 +3,183 @@ layout: default
 title: Welcome
 description: This is my home page
 ---
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the
+# server process.
 
+# theme settings
+theme: "lone-wolf-theme"
+remote_theme: # "manid2/lone-wolf-theme"
+bootswatch_theme: "united" # cerulean, spacelab, united
 
-You can use the [editor on GitHub](https://github.com/TaniyaCato/Jk-Assignment-2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# site settings, follows the order used in jekyll-seo-tag plugin
+lang: "en_US"
+title: "Lone Wolf Theme"
+description: "A simple bootstrap based jekyll theme."
+url: # site url e.g. "https://manid2.github.io"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+author: mani_d2
+twitter:
+  username: mani_d2 # should be site's username
+  card: summary
+logo: assets/images/lwt-logo-wolf-v2.png # PNG is SEO friendly
+# use below when there are social links for site
+#social:
+#  name: Mani Kumar
+#  links:
+#    - https://twitter.com/mani_d2
+#    - https://www.linkedin.com/in/manid2/
+#    - https://github.com/manid2
+# site verifications,
+webmaster_verifications:
+  google: # 1234
+  bing: # 1234
+  alexa: # 1234
+  yandex: # 1234
+  baidu: # 1234
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# comments settings
+comments:
+  provider: false # false (default), "disqus", "discourse"
+  disqus:
+    # refer what is disqus shortname article online
+    shortname:
 
-### Markdown 
+# feed
+atom_feed:
+  path: # blank (default) uses feed.xml
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# site search settings
+search: # true, false (default)
+search_full_content: # true, false (default)
+search_provider: # google
 
-```markdown
-Syntax highlighted code block
+google:
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 
-# Header 1
-## Header 2
-### Header 3
+# Analytics
+analytics:
+  provider: false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id:
+    anonymize_ip: # true, false (default)
 
-- Bulleted
-- List
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore /docs in theme
+  - /test # ignore /test in theme
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-1. Numbered
-2. List
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-**Bold** and _Italic_ and `Code` text
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-[Link](url) and ![Image](src)
-```
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: "" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-### Jekyll Themes
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-include-cache
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TaniyaCato/Jk-Assignment-2/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-include-cache
 
-### Support or Contact
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# site defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      show_hero: true
+      show_author: true
+      show_toc: true
+      share: true
+      show_comments: false
+      show_ads: false
+  # any page
+  - scope:
+      path: ""
+    values:
+      # for SEO and social sharing
+      image: assets/images/lwt-logo-wolf-v2.png
+      image_alt: Lone Wolf Theme logo version 2
