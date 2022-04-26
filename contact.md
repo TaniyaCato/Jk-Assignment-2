@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: default
 title: Contact Me
 description: My Contact Information
 ---
