@@ -2,38 +2,38 @@
 
 ---  
 
-$heading-header-color: #000 !default;
+//$heading-header-color: #000 !default;
 
-@import "{{ site.theme }}";
+//@import "{{ site.theme }}";
 
 //h1{
     //color: #000000;
 //}
 
-.about{
-    padding: 0;
-}
+//.about{
+    //padding: 0;
+//}
 
-nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    padding-left: 0px;
-}
+//nav ul{
+    //display: flex;
+    //list-style: none;
+    //justify-content: center;
+    //padding-left: 0px;
+//}
 
-a{
-    color: black;
-}
+//a{
+   // color: black;
+//}
 
 // News css
-.card{
-    display:flex;
-    margin-bottom:1rem;
-    border-bottom: solid 1px #ccc;
-}
+//.card{
+    //display:flex;
+    //margin-bottom:1rem;
+    //border-bottom: solid 1px #ccc;
+//}
 
-.pic{
-    margin-right:1.5rem;
-}
+//.pic{
+    //margin-right:1.5rem;
+//}
 
 
